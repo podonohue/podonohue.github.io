@@ -3,6 +3,7 @@
 */
 
 html {
+	background-color: #202020;
 	font-family: 'Arial', sans;
 	font-size: 16px;
 }
@@ -12,7 +13,7 @@ body {
 }
 
 header a {
-	color: #202020;
+	color: rgb(255, 255, 255);
 	display: flex;
 	text-decoration:none;
 	text-transform: uppercase;
