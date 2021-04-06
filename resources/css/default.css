@@ -8,6 +8,17 @@ html {
 }
 
 body {
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+nav div {
 	
 }
 
