@@ -21,7 +21,7 @@ body {
 
 body:after {
 	content:"";
-	/* background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%); */
+	/* background: linear-gradient(130deg,#397d92,#d94032 41.07%,#f2935c 76.05%); */
 }
 
 header a {
