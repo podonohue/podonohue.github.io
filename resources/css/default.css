@@ -11,6 +11,18 @@ body {
 	width: 100%;
 }
 
+header a {
+	color: #202020;
+	display: flex;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+
+.logo {
+	
+}
+
 nav {
 	display: flex;
 	flex-direction: row;
@@ -18,14 +30,12 @@ nav {
 	width: 100%;
 }
 
-nav div {
-	
+.main-nav li {
+	justify-content: space-between;
 }
 
-nav a {
-	color: #202020;
-	text-decoration:none;
-	text-transform: uppercase;
+main {
+	
 }
 
 section {
