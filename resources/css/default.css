@@ -32,7 +32,7 @@ header a {
 
 .site-header .logo, .site-header .logo>a {
 	align-items: center;
-	dipslay: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	overflow: hidden;
