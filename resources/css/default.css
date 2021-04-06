@@ -2,10 +2,24 @@
 	Comment
 */
 
-a { /* Comment */ color: /* Comment */ Red; }
+html {
+	font-family: 'Arial', sans;
+	font-size: 16px;
+}
 
-.TestClass {
-	color: Black;
-	background-color: White;
-	text-align: left;
+body {
+	
+}
+
+nav a {
+	color: inherit;
+	text-decoration:none;
+}
+
+section {
+	
+}
+
+footer {
+	
 }
