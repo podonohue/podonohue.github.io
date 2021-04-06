@@ -3,7 +3,7 @@
 */
 
 html {
-	background-color: #202020;
+	background-repeat: cover;
 	background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
 	font-family: 'Arial', sans;
 	font-size: 16px;
