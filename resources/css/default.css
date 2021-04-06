@@ -12,8 +12,9 @@ body {
 }
 
 nav a {
-	color: black;
+	color: #202020;
 	text-decoration:none;
+	text-transform: uppercase;
 }
 
 section {
