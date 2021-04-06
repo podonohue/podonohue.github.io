@@ -3,7 +3,7 @@
 */
 
 html {
-	background: linear-gradient(130deg,#14212b,#414854 41.07%,#14212b 76.05%);
+	background: #14212b;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Arial', sans;
@@ -15,13 +15,7 @@ html {
 }
 
 body {
-	width: 100%;
-	
-}
-
-body:after {
-	content:"";
-	/* background: linear-gradient(130deg,#397d92,#d94032 41.07%,#f2935c 76.05%); */
+	width: 100%;	
 }
 
 header a {
@@ -33,7 +27,7 @@ header a {
 
 
 .logo {
-	
+		
 }
 
 .site-header .logo, .site-header .logo>a {
