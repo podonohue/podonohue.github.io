@@ -23,6 +23,11 @@ header a {
 	
 }
 
+.site-header .logo, .site-header .logo>a {
+	dipslay: flex;
+	align-items: center;
+}
+
 nav {
 	display: flex;
 	flex-direction: row;
