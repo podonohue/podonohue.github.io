@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	width: calc(100% - 10px);	
+	margin: 0 10px;	
 }
 
 header a {
