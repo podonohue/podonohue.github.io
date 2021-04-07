@@ -29,6 +29,13 @@ header a {
 .logo, .title {
 	font-family: 'Cairo', sans-serif;
 }
+
+.site-header {
+	display: flex;
+	position: relative;
+	width: 100%;
+}
+
 /*
 .site-header .logo, .site-header .logo>a {
 	align-items: center;
