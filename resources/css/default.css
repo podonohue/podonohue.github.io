@@ -14,13 +14,16 @@ html {
 	width: 100%;
 }
 
-body {
-	margin: 0;	
+body {	
+}
+
+.site-header {
+	border: 2px dotted blue;
+	display: flex;
 }
 
 header a {
 	color: rgb(255, 255, 255);
-	display: flex;
 	text-decoration:none;
 	text-transform: uppercase;
 }
@@ -30,42 +33,8 @@ header a {
 	font-family: 'Cairo', sans-serif;
 }
 
-.site-header {
-	display: flex;
-	position: relative;
-	width: 100%;
-}
-
-/*
-.site-header .logo, .site-header .logo>a {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	overflow: hidden;
-	padding: 1.2rem 1rem;
-	position: relative;
-}
-*/
-
 .header-nav {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-}
-
-.main-nav li {
-	
-}
-
-main {
-	
-}
-
-section {
-	
-}
-
-footer {
-	
 }
