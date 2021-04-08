@@ -28,8 +28,12 @@ a:visited {
 	color: inherit;
 }
 
-.header-logo {
+.site-header .icon-logo-init {
+	width: 75px;
+}
+
+.site-header .icon-logo-text {
 	font-family: 'Cairo', sans-serif;
-	max-width: 150px;
+	width: 150px;
 }
 
