@@ -37,5 +37,5 @@ body {
 }
 
 .container {
-	display: flex;
+	display: inline-flex;
 }
