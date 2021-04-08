@@ -39,3 +39,9 @@ body {
 .site-header .container {
 	display: flex;
 }
+
+.logo {
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
