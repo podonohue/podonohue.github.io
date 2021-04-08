@@ -26,5 +26,6 @@ a:visited {
 
 .header-logo {
 	font-family: 'Cairo', sans-serif;
+	max-width: 150px;
 }
 
