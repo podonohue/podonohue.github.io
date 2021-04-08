@@ -19,7 +19,6 @@ body {
 
 .site-header {
 	border-bottom: 2px dotted #202020;
-	display: flex;
 }
 
 header a {
@@ -35,4 +34,8 @@ header a {
 
 .header-nav {
 
+}
+
+.container {
+	display: flex;
 }
