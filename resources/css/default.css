@@ -20,6 +20,10 @@ html {
 	text-transform: uppercase;
 }
 
+a:visited {
+	color: inherit;
+}
+
 .header-logo {
 	font-family: 'Cairo', sans-serif;
 }
