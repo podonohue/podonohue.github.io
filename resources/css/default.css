@@ -6,6 +6,7 @@ html {
 	background: #14212b;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: rgb(255,255,255, .8);
 	font-family: 'Rubik','Arial', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -14,34 +15,12 @@ html {
 	width: 100%;
 }
 
-body {	
-}
-
-.site-header {
-	border-bottom: 2px dotted #202020;
-}
-
 .site-header a {
-	color: rgb(255, 255, 255);
 	text-decoration:none;
 	text-transform: uppercase;
 }
 
-
-.header-logo, .title {
+.header-logo {
 	font-family: 'Cairo', sans-serif;
 }
 
-.header-nav {
-
-}
-
-.site-header .container {
-	display: flex;
-}
-
-.logo {
-	align-items: center;
-	justify-content: space-between;
-	padding: 1rem;
-}
