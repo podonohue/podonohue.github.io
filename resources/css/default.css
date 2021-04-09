@@ -31,6 +31,10 @@ html {
 	text-transform: uppercase;
 }
 
+.icon-logo-text {
+	margin-left: 2rem;
+}
+
 .header-nav, .header-extras {
 	display: flex;
 }
