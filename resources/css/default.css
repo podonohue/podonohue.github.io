@@ -15,6 +15,11 @@ html {
 	width: 100%;
 }
 
+.container {
+	display: flex;
+	align-items: center;
+}
+
 .site-header {
 	display: flex;
 	justify-content: space-between;
@@ -26,7 +31,7 @@ html {
 	text-transform: uppercase;
 }
 
-.header-nav {
+.header-nav, .header-extras {
 	display: flex;
 }
 
