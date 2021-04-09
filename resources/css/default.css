@@ -30,6 +30,10 @@ html {
 	display: flex;
 }
 
+.header-nav a {
+	padding: 0 1rem;
+}
+
 a:visited {
 	color: inherit;
 }
