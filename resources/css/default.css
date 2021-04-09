@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	margin: 0 1rem;
+	margin: 0 2rem;
 }
 
 .container {
@@ -47,12 +47,14 @@ body {
 
 
 .site-header .header-nav>ul>li>a {
-	background-color: red;
 	height: 100%;
 	padding: 1.2rem 1rem;
 	text-align: center;
 }
 
+.site-header .header-nav>ul>li>a:hover {
+	background-color: rgba(0,0,0,.1);
+}
 a:visited {
 	color: inherit;
 }
