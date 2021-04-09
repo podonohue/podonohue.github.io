@@ -17,6 +17,7 @@ html {
 
 .site-header {
 	display: flex;
+	justify-content: space-between;
 }
 
 .site-header a {
@@ -36,4 +37,3 @@ a:visited {
 	font-family: 'Cairo', sans-serif;
 	width: 150px;
 }
-
