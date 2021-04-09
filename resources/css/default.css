@@ -60,3 +60,7 @@ a:visited {
 	font-family: 'Cairo', sans-serif;
 	width: 150px;
 }
+
+.page-wrap {
+	padding: 2rem 0;
+}
