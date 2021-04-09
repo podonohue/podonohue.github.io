@@ -56,9 +56,9 @@ body {
 	height: 100%;
 }
 
-.site-header .header-nav>ul>li>a, .site-header .header-extras>ul>li>a {
+.site-header .header-nav>ul>li>a {
 	height: 100%;
-	padding: 1.2rem 1rem;
+	padding: 1.5rem 1rem;
 	text-align: center;
 }
 
