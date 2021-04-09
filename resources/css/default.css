@@ -12,8 +12,11 @@ html {
 	font-weight: 400;
 	height: 100%;
 	line-height: 1.4rem;
-	padding: 0 .5rem;
 	width: 100%;
+}
+
+body {
+	margin: 0 1rem;
 }
 
 .container {
@@ -22,9 +25,10 @@ html {
 }
 
 .site-header {
+	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	padding: .5rem 0;
 }
 
 .site-header a {
