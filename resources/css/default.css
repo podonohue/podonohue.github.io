@@ -4,6 +4,8 @@
 
 html {
 	background: #14212b;
+	background: rgb(24,74,102);
+	background: linear-gradient(328deg, rgba(24,74,102,1) 0%, rgba(50,40,2,1) 35%, rgba(98,32,74,1) 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: rgba(255,255,255,.95);
