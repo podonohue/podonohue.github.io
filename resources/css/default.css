@@ -47,7 +47,10 @@ body {
 
 
 .site-header .header-nav>ul>li>a {
+	background-color: red;
+	height: 100%;
 	padding: 1.2rem 1rem;
+	text-align: center;
 }
 
 a:visited {
