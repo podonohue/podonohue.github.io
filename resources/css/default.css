@@ -27,6 +27,7 @@ body {
 
 .site-header {
 	align-items: center;
+	background-color: rgba(0,0,0,.1)
 	display: flex;
 	justify-content: space-between;
 	padding: .5rem 0;
@@ -45,7 +46,6 @@ body {
 .header-nav, .header-extras {
 	display: flex;
 }
-
 
 .site-header .header-nav>ul>li>a {
 	height: 100%;
