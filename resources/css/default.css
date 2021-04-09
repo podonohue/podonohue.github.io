@@ -52,11 +52,16 @@ body {
 	text-align: center;
 }
 
+.site-header .header-nav>ul>li>a:visited {
+	color:inherit;
+}
+
 .site-header .header-nav>ul>li>a:hover {
 	background-color: rgba(0,0,0,.1);
 }
-a:visited {
-	color: inherit;
+
+main a:visited {
+	color: rgba(255,255,255,.9);
 }
 
 .site-header .icon-logo-init {
@@ -70,4 +75,9 @@ a:visited {
 
 .page-wrap {
 	padding: 2rem 0;
+}
+
+.page-title h1 {
+	font-size: 5rem;
+	text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
 }
