@@ -39,9 +39,13 @@ body {
 }
 
 .icon-logo-text {
+	font-size: 1.25rem;
 	margin-left: 2rem;
 }
 
+.site-header>ul>li {
+	font-size: .85rem;
+}
 
 .site-header .header-nav>ul, .header-extras {
 	display: flex;
