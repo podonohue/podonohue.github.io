@@ -6,7 +6,7 @@ html {
 	background: #14212b;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: rgba(255,255,255, .8);
+	color: rgba(255,255,255,.95);
 	font-family: 'Rubik','Arial', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -68,7 +68,7 @@ body {
 }
 
 main a:visited {
-	color: rgba(255,255,255,.9);
+	color: rgba(255,255,255,.85);
 }
 
 .site-header .icon-logo-init {
