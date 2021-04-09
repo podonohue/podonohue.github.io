@@ -18,11 +18,16 @@ html {
 .site-header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .site-header a {
 	text-decoration:none;
 	text-transform: uppercase;
+}
+
+.header-nav {
+	display: flex;
 }
 
 a:visited {
