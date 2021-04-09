@@ -84,6 +84,7 @@ main a:visited {
 }
 
 #main-content h1.page-title {
-	font-size: 5rem;
+	font-size: 3.5rem;
+	font-weight: 600;
 	text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
 }
