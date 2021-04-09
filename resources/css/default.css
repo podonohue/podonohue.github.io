@@ -43,7 +43,7 @@ body {
 	margin-left: 2rem;
 }
 
-.site-header>ul>li {
+.site-header .header-nav>ul>li>a {
 	font-size: .85rem;
 }
 
