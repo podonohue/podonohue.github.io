@@ -35,6 +35,10 @@ html {
 	display: flex;
 }
 
+.header-nav li:hover {
+	background-color: rgba(50,50,50,.1);
+}
+
 .header-nav a {
 	padding: 0 1rem;
 }
