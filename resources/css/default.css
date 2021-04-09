@@ -45,7 +45,8 @@ body {
 }
 
 .site-header .header-nav>ul>li>a {
-	font-size: .85rem;
+	font-size: .75rem;
+	color: white;
 }
 
 .site-header .header-nav>ul, .header-extras {
