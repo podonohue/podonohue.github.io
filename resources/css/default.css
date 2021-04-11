@@ -17,6 +17,7 @@ html {
 	width: 100%;
 	--gap: 3rem;
 	--maxWidth: 1600px;
+	--textShadow: 0 2px 2px rgb(0 0 0 / 50%);
 }
 
 body {
@@ -85,11 +86,12 @@ main a:visited {
 }
 
 .page-wrap {
+	max-width: var(--maxWidth);
 	padding: 2rem 2rem;
 }
 
 #main-content h1.page-title {
 	font-size: 3.5rem;
 	font-weight: 600;
-	text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+	text-shadow: var(--textShadow);
 }
