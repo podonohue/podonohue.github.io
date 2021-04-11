@@ -106,6 +106,10 @@ body {
 	text-shadow: var(--textShadow);
 }
 
+.main-content-header {
+	margin-bottom: var(--gap);
+}
+
 .main-content-data {
 	font-size: 1rem;
 	line-height: 1.4rem;
