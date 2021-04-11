@@ -3,16 +3,7 @@
 */
 
 :root {
-	/* TEXT COLORS */
-	--navColor: rgba(255,255,255,.95), white;
-	--mcdColor: rgba(25,25,25,.95), black;
-	--accent1: rgba(24,74,102,1);
-	--accent2: rgba(50,40,2,1);
-	--accent3: rgba(98,32,74,1);
-	/* LAYOUT */
-	--gap: 3rem;
-	--maxWidth: 1600px;
-	--textShadow: 0 2px 2px rgb(0 0 0 / 50%);
+
 }
 
 html {
@@ -27,6 +18,16 @@ html {
 	height: 100%;
 	line-height: 1.7rem;
 	width: 100%;
+	/* TEXT COLORS */
+	--navColor: rgba(255,255,255,.95), white;
+	--mcdColor: rgba(25,25,25,.95), black;
+	--accent1: rgba(24,74,102,1);
+	--accent2: rgba(50,40,2,1);
+	--accent3: rgba(98,32,74,1);
+	/* LAYOUT */
+	--gap: 3rem;
+	--maxWidth: 1600px;
+	--textShadow: 0 2px 2px rgb(0 0 0 / 50%);
 }
 
 body {
