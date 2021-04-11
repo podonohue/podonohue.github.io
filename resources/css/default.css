@@ -19,8 +19,8 @@ html {
 	line-height: 1.7rem;
 	width: 100%;
 	/* TEXT COLORS */
-	--navColor: rgba(255,255,255,.95), white;
-	--mcdColor: rgba(25,25,25,.95), black;
+	--navColor: rgba(255,255,255,.95);
+	--mcdColor: rgba(25,25,25,.95);
 	--accent1: rgba(24,74,102,1);
 	--accent2: rgba(50,40,2,1);
 	--accent3: rgba(98,32,74,1);
@@ -102,4 +102,9 @@ body {
 	font-size: 3.5rem;
 	font-weight: 600;
 	text-shadow: var(--textShadow);
+}
+
+.main-content-data {
+	font-size: 1rem;
+	line-height: 1.4rem;
 }
