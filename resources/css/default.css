@@ -94,11 +94,13 @@ body {
 }
 
 .page-wrap {
+	margin: 0 auto;
 	max-width: var(--maxWidth);
 	padding: 2rem 2rem;
 }
 
 #main-content h1.page-title {
+	color: var(--navColor);
 	font-size: 3.5rem;
 	font-weight: 600;
 	text-shadow: var(--textShadow);
