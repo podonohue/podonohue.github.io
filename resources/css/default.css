@@ -99,7 +99,7 @@ body {
 	padding: 2rem 2rem;
 }
 
-#main-content h1.page-title {
+h1.page-title {
 	color: var(--navColor);
 	font-size: 3.5rem;
 	font-weight: 600;
@@ -111,14 +111,15 @@ body {
 	margin-bottom: var(--gap);
 }
 
-.main-content-data {
+.main-content-text {
 	font-size: 1rem;
 	line-height: 1.4rem;
 	width: 75%;
 	margin-right: var(--gap);
 }
 
-.main-content-data {
+/* test - delete later */
+.main-content-sidebar {
 	background-color: red;
 	height: 100px;
 	width: 25%;
