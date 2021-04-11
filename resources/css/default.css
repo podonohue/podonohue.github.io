@@ -103,6 +103,7 @@ body {
 	color: var(--navColor);
 	font-size: 3.5rem;
 	font-weight: 600;
+	margin-bottom: var(--gap);
 	text-shadow: var(--textShadow);
 }
 
@@ -113,4 +114,12 @@ body {
 .main-content-data {
 	font-size: 1rem;
 	line-height: 1.4rem;
+	width: 75%;
+	margin-right: var(--gap);
+}
+
+.main-content-data {
+	background-color: red;
+	height: 100px;
+	width: 25%;
 }
