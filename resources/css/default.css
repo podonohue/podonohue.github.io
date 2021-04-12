@@ -112,6 +112,9 @@ h1.page-title {
 }
 
 .main-content-text {
+	background-color: var(--navColor);
+	border-radius: 8px;
+	box-shadow: 0 -2px 5px rgb(0,0,0,.33);
 	font-size: 1rem;
 	line-height: 1.4rem;
 	width: 75%;
