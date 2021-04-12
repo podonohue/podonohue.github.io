@@ -29,6 +29,20 @@ html {
 body {
 }
 
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+	color: var(--accent2);
+	font-size: 1rem;
+	font-weight: 500;
+}
+
 a:link {
 	color: inherit;
 }
@@ -164,5 +178,9 @@ figcaption {
 .psst {
 	font-size: .75rem;
 	font-style: italic;
-	font-weight: 300;	
+	font-weight: 300;
+}
+
+footer {
+	font-color: var(--navColor);
 }
