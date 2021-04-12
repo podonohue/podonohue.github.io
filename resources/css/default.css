@@ -114,6 +114,7 @@ h1.page-title {
 
 .page-title-secondary {
 	background-color: rgba(100,100,100,.35);
+	border-radius: 4px;
 	color: var(--navColor);
 	padding: calc(var(--gap) / 2);
 	width: auto;
@@ -137,4 +138,9 @@ h1.page-title {
 .page-wrap img {
 	border-radius: 8px;
 	max-width: 100%;
+}
+
+figcaption {
+	color: var(--accent3);
+	font-size: .75rem;
 }
