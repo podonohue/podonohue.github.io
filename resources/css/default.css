@@ -103,8 +103,9 @@ h1.page-title {
 	text-shadow: var(--textShadow);
 }
 
-.main-content {
+.main-content .container{
 	max-width: var(--maxWidth);
+	align-items: flex-start;
 }
 
 .main-content-header {
@@ -117,7 +118,7 @@ h1.page-title {
 	box-shadow: 0 -2px 5px rgb(0,0,0,.33);
 	font-size: 1rem;
 	line-height: 1.4rem;
-	padding: var(--gap);
+	padding: calc(var(--gap) / 2);
 	width: 75%;
 	margin-right: calc(var(--gap) / 2);
 }
