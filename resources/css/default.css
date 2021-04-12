@@ -128,4 +128,5 @@ h1.page-title {
 
 .page-wrap img {
 	border-radius: 8px;
+	max-width: 100%;
 }
