@@ -147,8 +147,13 @@ h1.page-title {
 	margin-right: calc(var(--gap) / 2);
 }
 
-.main-content-text>.conatiner>.container-item {
+.page-title-secondary>.container {
+	justify-content: space-between;
+}
+
+.page-title-secondary>.container>.container-item {
 	line-height: 1.7rem;
+	max-width: 300px;
 	padding: calc(var(--gap) / 2);
 }
 
