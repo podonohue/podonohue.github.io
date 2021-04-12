@@ -2,10 +2,6 @@
 	Comment
 */
 
-:root {
-
-}
-
 html {
 	background: #14212b;
 	background: rgb(24,74,102);
@@ -105,6 +101,10 @@ h1.page-title {
 	font-weight: 600;
 	margin-bottom: var(--gap);
 	text-shadow: var(--textShadow);
+}
+
+.main-content {
+	max-width: var(--maxWidth);
 }
 
 .main-content-header {
