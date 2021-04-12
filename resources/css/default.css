@@ -17,9 +17,9 @@ html {
 	/* TEXT COLORS */
 	--navColor: rgba(255,255,255,.95);
 	--mcdColor: rgba(25,25,25,.95);
-	--accent1: rgba(24,74,102,1);
-	--accent2: rgba(50,40,2,1);
-	--accent3: rgba(98,32,74,1);
+	--accent1: rgba(24,74,102,1); /*teal*/
+	--accent2: rgba(50,40,2,1); /*dark*/
+	--accent3: rgba(98,32,74,1); /*reddish*/
 	/* LAYOUT */
 	--gap: 3rem;
 	--maxWidth: 1600px;
@@ -27,6 +27,22 @@ html {
 }
 
 body {
+}
+
+a:link {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: var(--accent1);
+}
+
+a:active {
+	color: var(--accent1);
 }
 
 .container {
