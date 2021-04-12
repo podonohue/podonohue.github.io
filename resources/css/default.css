@@ -5,7 +5,7 @@
 html {
 	background: #14212b;
 	background: rgb(24,74,102);
-	background: linear-gradient(328deg, rgba(24,74,102,1) 0%, rgba(50,40,2,1) 35%, rgba(98,32,74,1) 100%);
+	background: linear-gradient(328deg, rgba(5,20,25,88) 89%, rgba(20,33,43,1) 95%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Rubik','Arial', sans-serif;
@@ -37,6 +37,7 @@ body {
 .site-header {
 	align-items: center;
 	background-color: rgba(0,0,0,.1);
+  background: linear-gradient(328deg, rgba(24,74,102,1) 0%, rgba(50,40,2,1) 35%, rgba(98,32,74,1) 100%);
 	box-shadow: inset 0 -2px 5px rgb(0,0,0,.33);
 	color: var(--navColor);
 	display: flex;
@@ -45,10 +46,9 @@ body {
 
 .site-header a {
 	color: var(--navColor);
-	text-decoration:none;
+	text-decoration: none;
 	text-transform: uppercase;
 }
-
 .icon-logo-text {
 	color: var(--navColor);
 	font-size: 1.25rem;
@@ -110,6 +110,13 @@ h1.page-title {
 
 .main-content-header {
 	margin-bottom: var(--gap);
+}
+
+.page-title-secondary {
+	background-color: rgba(100,100,100,.35);
+	color: var(--navColor);
+	padding: calc(var(--gap) / 2);
+	width: auto;
 }
 
 .main-content-text {
