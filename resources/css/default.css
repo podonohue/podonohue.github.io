@@ -105,7 +105,7 @@ a:active {
 	width: 150px;
 }
 
-.page-wrap {
+.page-wrap, footer {
 	margin: 0 auto;
 	max-width: var(--maxWidth);
 	padding: 2rem 2rem;
@@ -159,4 +159,10 @@ h1.page-title {
 figcaption {
 	color: var(--navcolor);
 	font-size: .75rem;
+}
+
+.psst {
+	font-size: .75rem;
+	font-style: italic;
+	font-weight: 300;	
 }
