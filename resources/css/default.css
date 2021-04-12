@@ -72,6 +72,7 @@ a:active {
 	color: var(--navColor);
 	display: flex;
 	padding: .5rem 2rem;
+	justify-content: space-between;
 }
 
 .site-header a {
@@ -179,6 +180,7 @@ figcaption {
 	font-size: .75rem;
 	font-style: italic;
 	font-weight: 300;
+	margin-top: var(--gap);
 }
 
 footer {
