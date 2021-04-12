@@ -43,8 +43,11 @@ h3 {
 	font-weight: 500;
 }
 
-a:link {
-	color: inherit;
+a:link, a:visited, a:hover, a:active, {
+	color: var(--accent2);
+	text-decoration: underline;
+	text-decoration-color: var(--accent1);
+	text-decoration-thickness: .2rem;
 }
 
 a:visited {
