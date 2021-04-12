@@ -121,3 +121,11 @@ h1.page-title {
 	width: 75%;
 	margin-right: calc(var(--gap) / 2);
 }
+
+.main-content-sidebar {
+	width: 25%;
+}
+
+.page-wrap img {
+	border-radius: 8px;
+}
