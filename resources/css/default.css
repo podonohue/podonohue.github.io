@@ -121,10 +121,3 @@ h1.page-title {
 	width: 75%;
 	margin-right: calc(var(--gap) / 2);
 }
-
-/* test - delete later */
-.main-content-sidebar {
-	background-color: red;
-	height: 100px;
-	width: 25%;
-}
