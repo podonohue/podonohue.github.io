@@ -123,7 +123,7 @@ h1.page-title {
 }
 
 .main-content-sidebar {
-	width: 25%;
+	max-width: 25%;
 }
 
 .page-wrap img {
