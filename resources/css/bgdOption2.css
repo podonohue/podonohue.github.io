@@ -1,9 +1,0 @@
-/* colorful header, frosted white page wrap */
-html {
-  background-color: rgba(255,255,255,.35);
-}
-
-
-.site-header {
-  background: linear-gradient(328deg, rgba(24,74,102,1) 0%, rgba(50,40,2,1) 35%, rgba(98,32,74,1) 100%);
-}

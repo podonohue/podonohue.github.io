@@ -147,16 +147,6 @@ h1.page-title {
 	margin-right: calc(var(--gap) / 2);
 }
 
-.page-title-secondary>.container {
-	justify-content: space-between;
-}
-
-.page-title-secondary>.container>.container-item {
-	line-height: 1.7rem;
-	max-width: 300px;
-	padding: calc(var(--gap) / 2);
-}
-
 .main-content-sidebar {
 	max-width: calc(25% - (var(--gap) / 2));
 }
@@ -167,6 +157,6 @@ h1.page-title {
 }
 
 figcaption {
-	color: var(--accent3);
+	color: var(--navcolor);
 	font-size: .75rem;
 }
