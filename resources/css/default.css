@@ -103,7 +103,7 @@ h1.page-title {
 	text-shadow: var(--textShadow);
 }
 
-.main-content .container{
+.main-content.container{
 	max-width: var(--maxWidth);
 	align-items: flex-start;
 }
