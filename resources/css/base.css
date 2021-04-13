@@ -86,12 +86,16 @@ header a {
   text-transform: uppercase;
 }
 
+header.logo {
+  width: 75px;
+}
+
 header.logo-text {
   font-family: 'Cairo', sans-serif;
 }
 
 .page-wrap {
-
+  margin: - auto;
 }
 
 main {
