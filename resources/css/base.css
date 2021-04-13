@@ -132,17 +132,27 @@ main.page-wrap {
 
 .one-half {
   width: 50%;
-  margin: calc(var(--gap) / 2);
+  margin: var(--gap);
 }
 
 .two-thirds {
   width: 66%;
-  margin: calc(var(--gap) / 2);
+  margin: var(--gap);
 }
 
 .one-third {
   width: 33%;
-  margin: calc(var(--gap) / 2);
+  margin: var(--gap);
+}
+
+.three-fourths {
+  width: 75%;
+  margin: var(--gap);
+}
+
+.one-fourth {
+  width: 25%;
+  margin: var(--gap);
 }
 
 /* footer */
@@ -174,3 +184,14 @@ footer a, footer a:link, footer a:visited, footer a:hover {
 /* || 7. Page: Personal */
 
 /* || 8. Media Queries */
+
+@media (max-width: 740px) {
+  .logo {
+    display: none;
+  }
+
+  header .logo-text, header>nav {
+    display: block;
+    width: 100%;
+  }
+}
