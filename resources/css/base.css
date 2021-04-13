@@ -94,7 +94,7 @@ header nav ul {
 
 header>nav>ul>li>a {
   font-size: .75rem;
-  height: 100%;
+  height: calc(100% + .5rem);
   padding: 1.5rem 1rem;
   text-align: center;
 }
