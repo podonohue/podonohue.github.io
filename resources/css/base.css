@@ -79,7 +79,7 @@ header {
   justify-content: space-between;
 }
 
-header .logo-text, header nav ul li a {
+header .logo-text a, header nav ul li a {
   font-weight: 400;
   color: var(--lightColor);
   text-decoration: none;
