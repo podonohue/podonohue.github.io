@@ -111,7 +111,7 @@ header>nav>ul>li>a:hover {
 main.page-wrap {
   margin: 0 auto;
   max-width: var(--maxWidth);
-  min-height: calc(100vh-calc(3rem + var(--gap)));
+  min-height: calc(100vh - calc(3rem + var(--gap)));
   padding: var(--gap);
 }
 
