@@ -61,7 +61,8 @@ figcaption {
 /* || 2. Utilities */
 
 /* || 3. Sitewide */
-/* basic page layout, navication, header */
+
+/*header and navigation default*/
 header {
   align-items: center;
   background-color: rgba(0,0,0,.1);
@@ -70,6 +71,7 @@ header {
   display: flex;
   height: auto;
   justify-content: space-between;
+  padding: .5rem 2rem;
 }
 
 header a {
@@ -85,6 +87,13 @@ header svg.logo {
 
 header.logo-text {
   font-family: 'Cairo', sans-serif;
+}
+
+header nav ul li {
+  font-size: .75rem;
+  height: 100%;
+  padding: 1.5rem 1rem;
+  text-align: center;
 }
 
 .page-wrap {
