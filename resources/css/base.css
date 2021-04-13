@@ -210,9 +210,13 @@ footer a, footer a:link, footer a:visited, footer a:hover {
   .logo {
     display: none;
   }
-
-  header .logo-text, header>nav {
+  header {
     display: block;
+  }
+
+  header .logo-text, header>nav, header>nav>ul>li {
+    display: block;
+    height: auto;
     width: 100%;
   }
 }
