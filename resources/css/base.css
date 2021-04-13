@@ -50,9 +50,10 @@ a:hover {
   transition: text-decoration-color 1s .5s 0;
 }
 
-figcaption {
+figcaption, .psst {
 	color: inherit;
 	font-size: .75rem;
+  font-style: italic;
 }
 
 /* || 2. Utilities */
@@ -112,12 +113,17 @@ main.page-wrap {
   padding: var(--gap);
 }
 
-.page-wrap a, .page-wrap a:link, .page-wrap a:visited, .page-wrap a:hover, .page-wrap a:active {
+.page-wrap a, .page-wrap a:link, .page-wrap a:visited, .page-wrap a:hover, .page-wrap a:active, footer a, footer a:link, footer a:visited, footer a:hover {
   font-weight: bold;
   color: var(--accent2);
 	text-decoration: underline;
 	text-decoration-color: var(--accent1);
 	text-decoration-thickness: .2rem;
+}
+
+.page-wrap a:hover, footer a:hover{
+  text-decoration-color: var(--accent3);
+  text-decoration-thickness: .4rem;
 }
 
 /* footer */
@@ -135,7 +141,7 @@ footer {
   width: auto;
 }
 
-footer>child {
+footer>div {
   max-with: 300px;
   padding: calc(var(--gap) / 2);
 }
