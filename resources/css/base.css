@@ -122,7 +122,7 @@ main.page-wrap {
   color: var(--accent2);
 	text-decoration: underline;
 	text-decoration-color: var(--accent1);
-	text-decoration-thickness: .2rem;
+	text-decoration-thickness: .2em;
 }
 
 .page-wrap a:hover, footer a:hover{
