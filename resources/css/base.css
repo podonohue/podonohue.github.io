@@ -45,6 +45,7 @@ h1 {
   color: var(--lightColor);
   font-size: 2.5rem;
   margin: var(--gap) 0;
+  padding: 0 var(--gap);
 }
 
 a:hover {
@@ -135,6 +136,7 @@ main.page-wrap {
 
 .main-content {
   background-color: rgba(234,230,230,.95);
+  padding: calc(var(--gap) / 2);
 }
 
 .one-half {
