@@ -1,0 +1,74 @@
+/* TOC */
+/*
+use (ctrl+f: ||) to jump to sections
+
+1. General Styles
+2. Utilities
+3. Sitewide
+4. Page: Timeline
+5. Page: Resume
+6. Page: User Manual
+7. Page: Personal
+8. Media Queries
+*/
+
+/* || 1. General Styles */
+
+html {
+  /* LAYOUT */
+  --gap: 3rem;
+  --maxWidth: 1600px;
+  height: 100vh;
+  width: 100%;
+  /**/
+  /* TEXT COLORS */
+  --lightColor: rgba(255,255,255,.95); /* white */
+  --darkColor: rgba(25,25,25,.95); /* dark gray */
+  --accent1: rgba(24,74,102,1); /*teal*/
+  --accent2: rgba(50,40,2,1); /*dark*/
+  --accent3: rgba(98,32,74,1); /*reddish*/
+}
+
+body {
+
+}
+
+h1, h2, h3, h4, h5 {
+
+}
+
+ul, ol {
+
+}
+
+a, a:link, a:visited, a:hover, a:active, {
+  font-weight: bold;
+  color: var(--accent2);
+	text-decoration: underline;
+	text-decoration-color: var(--accent1);
+	text-decoration-thickness: .2rem;
+}
+
+a:hover {
+  text-decoration-color: var(--accent3);
+  transition: text-decoration-color .5s .5s 0; 
+}
+
+blockquote {
+
+}
+
+/* || 2. Utilities */
+
+/* || 3. Sitewide */
+/* basic page layout, navication, header */
+
+/* || 4. Page: Timeline */
+
+/* || 5. Page: Resume */
+
+/* || 6. Page: User Manual */
+
+/* || 7. Page: Personal */
+
+/* || 8. Media Queries */
