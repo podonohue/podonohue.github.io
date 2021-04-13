@@ -72,7 +72,7 @@ header {
   padding: .5rem 2rem;
 }
 
-header a, footer a {
+header a {
   font-weight: 400;
   color: var(--lightColor);
   text-decoration: none;
@@ -141,9 +141,9 @@ footer {
   width: auto;
 }
 
-footer>div {
-  max-with: 300px;
-  padding: calc(var(--gap) / 2);
+footer a {
+  color: inherit;
+  color: var(--lightColor);
 }
 
 /* || 4. Page: Timeline */
