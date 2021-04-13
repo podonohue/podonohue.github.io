@@ -18,8 +18,6 @@ html {
   /* LAYOUT */
   --gap: 3rem;
   --maxWidth: 1600px;
-  height: 100vh;
-  width: 100%;
   /**/
   /* TEXT COLORS */
   --lightColor: rgba(255,255,255,.95); /* white */
@@ -30,7 +28,11 @@ html {
 }
 
 body {
-
+  font-family: 'Rubik','Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100vh;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
