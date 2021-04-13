@@ -125,6 +125,7 @@ main.page-wrap {
 footer {
   background: linear-gradient(328deg, rgba(24,74,102,1) 0%, rgba(50,40,2,1) 35%, rgba(98,32,74,1) 100%);
   box-shadow: inset 0 15px 5px rgb(0,0,0,.50);
+  color: var(--lightColor);
   display: flex;
   margin: 0 auto;
   height: auto;
