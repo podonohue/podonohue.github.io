@@ -89,11 +89,20 @@ header.logo-text {
   font-family: 'Cairo', sans-serif;
 }
 
+header nav ul {
+  display: flex;
+  height: 100%;
+}
+
 header nav ul li {
   font-size: .75rem;
   height: 100%;
   padding: 1.5rem 1rem;
   text-align: center;
+}
+
+header nav ul li a:hover {
+  background-color: rgba(0,0,0,.1);
 }
 
 /* main content */
