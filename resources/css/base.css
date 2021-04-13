@@ -41,7 +41,7 @@ ul, ol {
 
 }
 
-a, a:link, a:visited, a:hover, a:active, {
+a, a:link, a:visited, a:hover, a:active {
   font-weight: bold;
   color: var(--accent2);
 	text-decoration: underline;
@@ -51,17 +51,37 @@ a, a:link, a:visited, a:hover, a:active, {
 
 a:hover {
   text-decoration-color: var(--accent3);
-  transition: text-decoration-color .5s .5s 0; 
+  transition: text-decoration-color .5s .5s 0;
 }
 
 blockquote {
 
 }
 
+figcaption {
+	color: inherit;
+	font-size: .75rem;
+}
+
 /* || 2. Utilities */
 
 /* || 3. Sitewide */
 /* basic page layout, navication, header */
+header {
+
+}
+
+.page-wrap {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
 
 /* || 4. Page: Timeline */
 
