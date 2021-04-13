@@ -125,6 +125,26 @@ main.page-wrap {
   text-decoration-color: var(--accent3);
 }
 
+.flex-top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.one-half {
+  width: 50%;
+  margin: calc(var(--gap) / 2);
+}
+
+.two-thirds {
+  width: 66%;
+  margin: calc(var(--gap) / 2);
+}
+
+.one-third {
+  width: 33%;
+  margin: calc(var(--gap) / 2);
+}
+
 /* footer */
 
 footer {
