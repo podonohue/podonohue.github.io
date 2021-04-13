@@ -54,7 +54,7 @@ a, a:link, a:visited, a:hover, a:active {
 
 a:hover {
   text-decoration-color: var(--accent3);
-  transition: text-decoration-color .5s .5s 0;
+  transition: text-decoration-color 1s .5s 0;
 }
 
 blockquote {
@@ -79,7 +79,7 @@ header {
   justify-content: space-between;
 }
 
-header a {
+header.logo-text, header>nav>ul>li>a {
   font-weight: 400;
   color: var(--lightColor);
   text-decoration: none;
