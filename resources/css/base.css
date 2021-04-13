@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
+  color: var(--lightColor);
   font-size: 2.5rem;
   margin: var(--gap) 0;
 }
@@ -107,6 +108,7 @@ header>nav>ul>li>a:hover {
 /* main content */
 
 main.page-wrap {
+  background-color: rgb(28,23,23);
   margin: 0 auto;
   max-width: var(--maxWidth);
   min-height: calc(100vh - calc(3rem + var(--gap)));
@@ -128,6 +130,10 @@ main.page-wrap {
 .flex-top {
   display: flex;
   align-items: flex-start;
+}
+
+.main-content {
+  background-color: rgba(234,230,230,.95);
 }
 
 .one-half {
