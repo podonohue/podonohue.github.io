@@ -87,6 +87,7 @@ header svg.logo {
 
 .logo-text {
   font-family: 'Cairo', sans-serif;
+  font-size: 1.2rem;
 }
 
 header nav ul {
