@@ -136,7 +136,14 @@ main.page-wrap {
 
 .main-content {
   background-color: rgba(234,230,230,.95);
+  border-radius: 5px;
+  box-shadow: 0 -2px 5px rgb(0,0,0,.33);
   padding: calc(var(--gap) / 2);
+}
+
+.side-content {
+  border-radius: 5px;
+  padding: 0;
 }
 
 .one-half {
