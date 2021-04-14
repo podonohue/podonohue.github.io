@@ -1,0 +1,33 @@
+/* TOC */
+/*
+use (ctrl+f: ||) to jump to sections
+
+1. General Styles
+2. Utilities
+3. Sitewide
+4. Page: Timeline
+5. Page: Resume
+6. Page: User Manual
+7. Page: Personal
+8. Media Queries
+*/
+
+/* || 1. General Styles */
+
+html {
+  font-family: 'Rubik','Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  /* LAYOUT */
+  --gap: 2rem;
+  --maxWidth: 1600px;
+  /*TEXT STYLES*/
+  --mainFont: 'Rubik',Arial,sans-serif;
+  --logoFont: 'Cairo',Arial,sans-serif;
+  --secondaryFont: ;
+  --lightColor: rgba(255,255,255,.95); /* white */
+  --darkColor: rgba(25,25,25,.95); /* dark gray */
+  --accent1: rgba(24,74,102,1); /*teal*/
+  --accent2: rgba(50,40,2,1); /*dark*/
+  --accent3: rgba(98,32,74,1); /*reddish*/
+}
