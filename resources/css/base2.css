@@ -66,6 +66,10 @@ aside {
 
 .icon-logo {
   max-width: 100%;
+  text-align: center;
+}
+
+.icon-logo-init {
   max-height: 75px;
 }
 
