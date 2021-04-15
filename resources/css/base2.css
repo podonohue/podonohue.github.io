@@ -84,6 +84,8 @@ aside {
 
 nav {
   background-color: rgba(55,55,55,.1);
+  border: 1px solid rgba(150,150,150,.1);
+  box-shadow: 2px 5px rgb(255,255,255) 30%);
   position: sticky;
   padding: var(--gap);
   top: var(--gap);
