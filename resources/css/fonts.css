@@ -29,7 +29,7 @@
 @font-face {
   font-family: 'Neuropol';
   src:url('../resources/fonts/neuropol.woff') format('woff'),
-      url('../resources/fonts/neuropol.woff') format('woff2');
+      url('../resources/fonts/neuropol.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
 }
