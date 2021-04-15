@@ -20,14 +20,15 @@ html {
   --maxWidth: 1600px;
   /*TEXT STYLES*/
   --headingFont: 'Jura','Roboto',sans-serif;
-  --lightColor: #15eceb; /* white */
-  --darkColor: #151e2b; /* dark gray */
+  --accentFont: 'Bitter', serif;
+  --lightColor: #faeceb; /* white */
+  --darkColor: #15131b; /* dark blue */
   --accent1: #15b9c4; /* dim blue */
   --accent2: #ff8135; /* orange */
   --accent3: #ff6683; /* pink */
   --accent4: #85ba35; /* green */
   background-color: var(--darkColor);
-  font-family: 'Bitter','Helvetica', sans-serif;
+  font-family: 'Roboto','Helvetica', sans-serif;
   font-size: 20px;
 }
 
