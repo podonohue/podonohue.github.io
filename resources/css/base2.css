@@ -15,19 +15,25 @@ use (ctrl+f: ||) to jump to sections
 /* || 1. General Styles */
 
 html {
-  font-family: 'Bitter','Helvetica', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
   /* LAYOUT */
   --gap: 1rem;
   --maxWidth: 1600px;
   /*TEXT STYLES*/
   --headingFont: 'Jura','Roboto',sans-serif;
-  --lightColor: rgba(255,255,255,.95); /* white */
-  --darkColor: rgba(25,25,25,.95); /* dark gray */
-  --accent1: rgba(24,74,102,1); /*teal*/
-  --accent2: rgba(50,40,2,1); /*dark*/
-  --accent3: rgba(98,32,74,1); /*reddish*/
+  --lightColor: #15eceb; /* white */
+  --darkColor: #151e2b; /* dark gray */
+  --accent1: #15b9c4; /* dim blue */
+  --accent2: #ff8135; /* orange */
+  --accent3: #ff6683; /* pink */
+  --accent4: #85ba35; /* green */
+  background-color: var(--darkColor);
+  font-family: 'Bitter','Helvetica', sans-serif;
+  font-size: 20px;
+}
+
+body {
+  color: var(--lightColor);
+  line-height: 1.6rem;
 }
 
 h1, h2, h3, h4, h5 {
