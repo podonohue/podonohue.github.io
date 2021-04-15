@@ -33,3 +33,12 @@
   font-display: swap;
   font-style: normal;
 }
+
+/* || NeuroPol */
+
+@font-face {
+  font-family: 'Hypologic';
+  src:url('../../resources/fonts/Hypologic.ttf') format('ttf');
+  font-display: swap;
+  font-style: normal;
+}
