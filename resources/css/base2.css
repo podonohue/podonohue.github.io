@@ -1,5 +1,5 @@
-/* TOC */
 /*
+TOC
 use (ctrl+f: ||) to jump to sections
 
 1. General Styles
@@ -40,4 +40,25 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: var(--headingFont);
   text-transform: uppercase;
+}
+
+
+/* || 2. Utilities */
+
+/* || 3. Sitewide */
+
+.page-wrap {
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+}
+
+aside {
+  max-width: 25%;
+}
+
+main {
+  max-width: 75%;
 }
