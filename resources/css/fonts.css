@@ -3,7 +3,7 @@
 @font-face {
   font-family:'Roboto';
   src:url('../../resources/fonts/roboto-light-webfont.woff') format('woff'),
-      url('./resources/fonts/roboto-light-webfont.woff2') format('woff2');
+      url('../resources/fonts/roboto-light-webfont.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
 }
@@ -38,7 +38,7 @@
 
 @font-face {
   font-family: 'Hypologic';
-  src:url('../../resources/fonts/Hypologic.ttf') format('ttf');
+  src:url('../../resources/fonts/Hypologic.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
 }
@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-Light.ttf') format('ttf');
+  src:url('../../resources/fonts/Bitter-Light.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
   font-weight: normal;
@@ -55,7 +55,7 @@
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-LightItalic.ttf') format('ttf');
+  src:url('../../resources/fonts/Bitter-LightItalic.ttf') format('truetype');
   font-display: swap;
   font-style: italic;
   font-weight: normal;
@@ -63,21 +63,21 @@
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-Regular.ttf') format('ttf');
+  src:url('../../resources/fonts/Bitter-Regular.ttf') format('truetype');
   font-display: swap;
   font-style: bold;
 }
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-Thin.ttf') format('ttf');
+  src:url('../../resources/fonts/Bitter-Thin.ttf') format('truetype');
   font-display: swap;
   font-style: lighter;
 }
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-ThinItalic.ttf') format('ttf');
+  src:url('../../resources/fonts/Bitter-ThinItalic.ttf') format('truetype');
   font-display: swap;
   font-style: italic;
   font-weight: lighter;
