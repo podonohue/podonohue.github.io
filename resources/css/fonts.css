@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-Light.ttf') format('truetype');
+  src:url('../../resources/fonts/Bitter-Regular.ttf') format('truetype');
   font-display: swap;
   font-style: normal;
   font-weight: normal;
@@ -55,7 +55,7 @@
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-LightItalic.ttf') format('truetype');
+  src:url('../../resources/fonts/Bitter-Italic.ttf') format('truetype');
   font-display: swap;
   font-style: italic;
   font-weight: normal;
@@ -63,22 +63,32 @@
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-Regular.ttf') format('truetype');
+  src:url('../../resources/fonts/Bitter-Light.ttf') format('truetype');
   font-display: swap;
-  font-style: bold;
+  font-style: normal;
+  font-weight: lighter;
 }
 
 @font-face {
   font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-Thin.ttf') format('truetype');
-  font-display: swap;
-  font-style: lighter;
-}
-
-@font-face {
-  font-family: 'Bitter';
-  src:url('../../resources/fonts/Bitter-ThinItalic.ttf') format('truetype');
+  src:url('../../resources/fonts/Bitter-LightItalic.ttf') format('truetype');
   font-display: swap;
   font-style: italic;
   font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src:url('../../resources/fonts/Bitter-SemiBold.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src:url('../../resources/fonts/Bitter-SemiBoldItalic.ttf') format('truetype');
+  font-display: swap;
+  font-style: italic;
+  font-weight: bolder;
 }
