@@ -22,7 +22,7 @@ html {
   --gap: 1rem;
   --maxWidth: 1600px;
   /*TEXT STYLES*/
-  --mainFont: 'Rubik',Arial,sans-serif;
+  --mainFont: 'Roboto',Arial,sans-serif;
   --logoFont: 'Jura',Arial,sans-serif;
   --secondaryFont: ;
   --lightColor: rgba(255,255,255,.95); /* white */

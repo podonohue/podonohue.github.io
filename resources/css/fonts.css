@@ -24,4 +24,12 @@
   font-style: bold;
 }
 
-/* || IDK MAN WHATEVER */
+/* || NeuroPol */
+
+@font-face {
+  font-family: 'Neuropol';
+  src:url('../resources/fonts/neuropol.woff'),
+      url('../resources/fonts/neuropol.woff');
+  font-display: swap;
+  font-style: normal;
+}
