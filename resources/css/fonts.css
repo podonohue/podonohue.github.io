@@ -27,23 +27,10 @@
   font-weight: bold;
 }
 
-/* || NeuroPol */
-
+/* || Jura */
 @font-face {
-  font-family: 'Neuropol';
-  src:url('../../resources/fonts/neuropol.woff') format('woff'),
-      url('../../resources/fonts/neuropol.woff2') format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-/* || Hypologic */
-
-@font-face {
-  font-family: 'Hypologic';
-  src:url('../../resources/fonts/Hypologic.ttf') format('truetype');
-  font-display: swap;
-  font-style: normal;
+  font-family: 'Jura';
+  src:url('../../resources/fonts/Jura-VariableFont_wght.ttf') format('truetype');
 }
 
 /* || Bitter */
