@@ -59,9 +59,9 @@ h2 {
 }
 
 aside {
-  background-color: rgba(21,19,27,.1);
-  height: 100%;
+  min-height: 100%;
   max-width: 25%;
+  padding-top: var(--gap);
 }
 
 .icon-logo {
@@ -78,6 +78,7 @@ aside {
 }
 
 nav {
+  background-color: rgba(55,55,55,.1);
   position: sticky;
   padding: var(--gap);
   top: var(--gap);
