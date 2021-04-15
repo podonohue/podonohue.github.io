@@ -61,13 +61,18 @@ aside {
   max-width: 25%;
 }
 
-main {
-  max-width: 75%;
-  padding: var(--gap);
-}
-
 nav {
   position: sticky;
   padding: var(--gap;);
   top: var(--gap);
+}
+
+main {
+  height: auto;
+  max-width: 75%;
+  padding: var(--gap);
+}
+
+section {
+  min-height: 100vh;
 }
