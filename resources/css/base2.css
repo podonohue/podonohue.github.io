@@ -61,6 +61,7 @@ a {
   height: 100%;
   margin: 0 auto;
   max-width: 1600px;
+  padding: 0 calc(var(--gap) * 2);
   width: 100%;
 }
 
@@ -103,6 +104,10 @@ main {
 
 section {
   min-height: 100vh;
-  padding: calc(var(--gap) * 3) var(--gap);
+  padding: calc(var(--gap) * 4) var(--gap);
   scroll-behavior: smooth;
+}
+
+#hi {
+  padding-top: calc(var(--gap) * 5);
 }
