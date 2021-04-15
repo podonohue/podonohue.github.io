@@ -63,7 +63,7 @@ aside {
 
 nav {
   position: sticky;
-  padding: var(--gap;);
+  padding: var(--gap);
   top: var(--gap);
 }
 
