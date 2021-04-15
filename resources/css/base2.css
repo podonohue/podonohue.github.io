@@ -15,15 +15,15 @@ use (ctrl+f: ||) to jump to sections
 /* || 1. General Styles */
 
 html {
-  font-family: 'Rubik','Arial', sans-serif;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   /* LAYOUT */
-  --gap: 2rem;
+  --gap: 1rem;
   --maxWidth: 1600px;
   /*TEXT STYLES*/
   --mainFont: 'Rubik',Arial,sans-serif;
-  --logoFont: 'Cairo',Arial,sans-serif;
+  --logoFont: 'Jura',Arial,sans-serif;
   --secondaryFont: ;
   --lightColor: rgba(255,255,255,.95); /* white */
   --darkColor: rgba(25,25,25,.95); /* dark gray */
