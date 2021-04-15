@@ -104,7 +104,7 @@ main {
 
 section {
   min-height: 100vh;
-  padding: calc(var(--gap) * 4) var(--gap);
+  padding: calc(var(--gap) * 2) var(--gap);
   scroll-behavior: smooth;
 }
 
