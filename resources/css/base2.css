@@ -91,7 +91,7 @@ nav {
   top: var(--gap);
 }
 
-nav {
+nav a {
   text-decoration: none;
 }
 
