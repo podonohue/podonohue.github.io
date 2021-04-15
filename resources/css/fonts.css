@@ -6,7 +6,6 @@
       url('./resources/fonts/roboto-light-webfont.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
-  font-weight: 100;
 }
 
 @font-face {
@@ -23,7 +22,6 @@
       url('../../resources/fonts/roboto-regular-webfont.woff') format('woff2');
   font-display: swap;
   font-style: bold;
-  font-weight: normal;
 }
 
 /* || NeuroPol */
@@ -36,11 +34,51 @@
   font-style: normal;
 }
 
-/* || NeuroPol */
+/* || Hypologic */
 
 @font-face {
   font-family: 'Hypologic';
   src:url('../../resources/fonts/Hypologic.ttf') format('ttf');
   font-display: swap;
   font-style: normal;
+}
+
+/* || Bitter */
+
+@font-face {
+  font-family: 'Bitter';
+  src:url('../../resources/fonts/Bitter-Light.ttf') format('ttf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src:url('../../resources/fonts/Bitter-LightItalic.ttf') format('ttf');
+  font-display: swap;
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src:url('../../resources/fonts/Bitter-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src:url('../../resources/fonts/Bitter-Thin.ttf') format('ttf');
+  font-display: swap;
+  font-style: lighter;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src:url('../../resources/fonts/Bitter-ThinItalic.ttf') format('ttf');
+  font-display: swap;
+  font-style: italic;
+  font-weight: lighter;
 }
