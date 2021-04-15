@@ -6,7 +6,7 @@
       url('./resources/fonts/roboto-light-webfont.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 @font-face {
@@ -19,8 +19,8 @@
 
 @font-face {
   font-family: 'Roboto';
-  src:url('../../resources/fonts/roboto-regular-webfont.woff') format('woff'),
-      url('../../resources/fonts/roboto-regular-webfont.woff') format('woff2');
+  src:url('x../../resources/fonts/roboto-regular-webfont.woff') format('woff'),
+      url('x../../resources/fonts/roboto-regular-webfont.woff') format('woff2');
   font-display: swap;
   font-style: bold;
   font-weight: normal;
