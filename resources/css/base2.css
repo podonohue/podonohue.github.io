@@ -15,19 +15,22 @@ use (ctrl+f: ||) to jump to sections
 /* || 1. General Styles */
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bitter','Helvetica', sans-serif;
   font-size: 20px;
   font-weight: 100;
   /* LAYOUT */
   --gap: 1rem;
   --maxWidth: 1600px;
   /*TEXT STYLES*/
-  --mainFont: 'Roboto',Arial,sans-serif;
-  --logoFont: 'Jura',Arial,sans-serif;
-  --secondaryFont: ;
+  --headingFont: 'Jura','Roboto',sans-serif;
   --lightColor: rgba(255,255,255,.95); /* white */
   --darkColor: rgba(25,25,25,.95); /* dark gray */
   --accent1: rgba(24,74,102,1); /*teal*/
   --accent2: rgba(50,40,2,1); /*dark*/
   --accent3: rgba(98,32,74,1); /*reddish*/
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--headingFont);
+  text-transform: uppercase;
 }
