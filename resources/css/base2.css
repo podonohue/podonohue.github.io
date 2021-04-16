@@ -14,7 +14,7 @@ html {
   background-color: var(--darkColor);
   font-family: 'Roboto','Helvetica', sans-serif;
   font-size: 20px;
-  scroll-behavior: smooth;
+  /*scroll-behavior: smooth;*/
   overflow-x: hidden;
 }
 
