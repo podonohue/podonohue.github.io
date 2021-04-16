@@ -50,16 +50,6 @@ h2 {
   margin-bottom: calc(var(--gap) * 2);
 }
 
-p {
-  border: 1px solid rgba(150,150,150,.1);
-  width: auto;
-  padding: var(--gap);
-}
-
-footer p {
-  border:none;
-}
-
 a {
   color: inherit;
   text-decoration: underline;
