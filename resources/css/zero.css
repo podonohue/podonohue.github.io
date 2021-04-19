@@ -1,0 +1,192 @@
+
+/* CTRL+F: || FOR CSS SECTION HEADINGS */
+
+html {
+	/* Variables */
+	--darkColor: #282828;
+	--lightColor: #fff;
+	--gap: 1.25rem;
+	--titleFont: 'Jura','Roboto',sans-serif;
+	--contentFont:'Roboto','Helvetica',sans-serif;
+	--accentFont: 'Bitter', serif;
+	background-color: var(--lightColor);
+	box-sizing: border-box;
+	color: var(--darkColor);
+	font-family: var(--contentFont);
+	font-size: 20px;
+	min-width: 480px;
+	scroll-behavior: smooth;
+}
+
+.page-header {
+	width: 100%;
+	height: calc(var(--gap) * 2);
+}
+
+.page-wrap {
+	width: 100%;
+}
+
+section {
+	background-color: blue;
+	//min-height: calc(100vh - calc(var(--gap) * 2);
+}
+
+.page-footer {
+	width: 100%;
+}
+
+/* || Mobile First */
+
+@media (min-width: 480px) {
+  /*CSS for medium width screens*/
+
+
+	body {
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+		min-height: 100vh;
+	}
+
+	h1,
+	h2,
+	h3 {
+    font-family: var(--titleFont);
+		margin: 1.4em;
+	}
+
+	a {
+		color: inherit;
+	}
+
+	a:focus, a:hover {
+		text-decoration: underline;
+		text-decoration-color: rgba(40,40,40,.9);
+	}
+
+
+/* || HEADER */
+	.page-header {
+		align-items: flex-start;
+		background-color: rgba(255,255,255,.5);
+		display: flex;
+		height: calc(var(--gap) * 2);
+		justify-content: space-between;
+		position: fixed;
+		top: 0;
+		z-index:999;
+	}
+
+	.logo {
+		align-items: center;
+		display: flex;
+		height: 100%;
+	}
+
+	.logo-icon {
+		background-color: var(--darkColor);
+		padding: .25rem 0;
+		text-align:center;
+		vertical-align: middle;
+		width: 4rem;
+	}
+
+	.logo-icon-actual {
+		max-width: 80%;
+	}
+
+	.logo-text {
+		font-family: var(--titleFont);
+		padding-left: var(--gap);
+		text-transform: uppercase;
+	}
+
+	.nav-header {
+		max-height: calc(var(--gap) * 2);
+	}
+
+	.menu {
+		align-items: center;
+		display: flex;
+		list-style: none;
+	}
+
+	.page-header a {
+		text-decoration: none;
+	}
+
+	.page-header .menu  a:hover {
+		text-decoration: underline;
+		text-decoration-color: inherit;
+		text-decoration-thickness: 2px;
+	}
+
+	.page-header .menu a:focus, {
+		text-decoration: none;
+	}
+
+	.menu li {
+		font-size: .75rem;
+		padding: 0 var(--gap);
+	}
+
+/* || CONTENT */
+
+	.page-wrap {
+		display: flex;
+		width: 100%;
+	}
+
+	.page-main-content {
+		min-height: calc(100vh - 90px);
+		width: 100%;
+	}
+
+	.social {
+		display: none;
+	}
+
+	section {
+		margin-top: calc(var(--gap) * 2);
+	}
+
+	section#hi {
+		background-color: #bfdbcd;
+	}
+
+	section#resume, section#personal {
+		background-color: var(--lightColor);
+	}
+
+	section#user_manual {
+		background-color: #dbdfff;
+	}
+
+	section#personal {
+
+	}
+
+	section#contact {
+
+	}
+
+/* || FOOTER */
+	.page-footer {
+		background-color: var(--darkColor);
+		min-height: 2rem;
+	}
+}
+
+@media (min-width: 800px) {
+  /*CSS for wide screens*/
+
+	.social {
+		display: inline;
+		min-height: calc(100vh - 90px);
+		min-width: 4rem;
+	}
+}
+
+@media (min-width: 1100px) {
+  /*CSS for really wide screens*/
+}
