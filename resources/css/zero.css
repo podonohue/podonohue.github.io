@@ -14,176 +14,278 @@ html {
 	color: var(--darkColor);
 	font-family: var(--contentFont);
 	font-size: 20px;
-	min-width: 480px;
+	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
 
 .page-header {
-	width: 100%;
-	height: calc(var(--gap) * 2);
+
 }
 
 .page-wrap {
 	width: 100%;
 }
 
-section {
-	background-color: blue;
-	height: calc(100vh - calc(var(--gap) * 2));
-}
-
 .page-footer {
 	width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--lightColor);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.0);
+	background-color: var(--darkColor);
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--titleFont);
+	margin: 1.4em 0;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+a {
+	color: inherit;
+}
+
+a:focus, a:hover {
+	text-decoration: underline;
+	text-decoration-color: inherit;
+}
+
+
+/* || HEADER */
+
+.page-header {
+	align-items: flex-start;
+	background-color: var(--lightColor);
+	display: flex;
+	height: calc(var(--gap) * 2);
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:999;
+}
+
+.logo {
+	align-items: center;
+	display: flex;
+	height: 100%;
+}
+
+.logo-icon {
+	background-color: var(--darkColor);
+	padding: .25rem 0;
+	text-align:center;
+	vertical-align: middle;
+	width: 4rem;
+}
+
+.logo-icon-actual {
+	max-width: 80%;
+}
+
+.logo-text {
+	font-family: var(--titleFont);
+	padding-left: var(--gap);
+	text-transform: uppercase;
+}
+
+.nav-header {
+	display:none;
+	max-height: calc(var(--gap) * 2);
+}
+
+.menu {
+	align-items: center;
+	display: flex;
+	list-style: none;
+}
+
+.page-header a {
+	text-decoration: none;
+}
+
+.page-header .menu  a:hover {
+	text-decoration: underline;
+	text-decoration-color: inherit;
+	text-decoration-thickness: 2px;
+}
+
+.page-header .menu a:focus, {
+	text-decoration: none;
+}
+
+.menu li {
+	font-size: .75rem;
+	padding: 0 var(--gap);
+}
+
+.menu-button, .menu-button-open {
+	display: inline;
+	max-height: 100%;
+	padding-top: .5rem;
+	padding-right: .5rem;
+	width: 1.5rem;
+}
+
+.menu-button-open {
+	display: none;
+}
+
+/* || CONTENT */
+
+.page-wrap {
+	display: flex;
+	height: auto;
+	top: calc(var(--gap) * 2);
+	width: 100%;
+}
+
+main {
+	height: auto;
+}
+
+.page-main-content {
+	width: 100%;
+}
+
+.social {
+	display: none;
+}
+
+section {
+	min-height: 100vh;
+	padding-left: var(--gap);
+	padding-top: calc(var(--gap) * 1.5);
+	margin-top: calc(-1 * calc(var(--gap) * 2));
+}
+
+section#hi {
+	padding-top: 5rem;
+}
+
+section#hi, section#user_manual, section#contact {
+	background-color: var(--darkColor);
+	color: var(--lightColor);
+}
+
+section#resume, section#personal {
+	background-color: var(--lightColor);
+	color: var(--darkColor);
+}
+
+.section-content {
+	text-align: left;
+}
+
+.flex-container {
+	display: flex;
+	align-items: flex-start;
+}
+
+.flex-item-25pct {
+	width: 25%;
+}
+
+.flex-item-33pct {
+	width: 25%;
+}
+
+.flex-item-25pct {
+	width: 33.33%;
+}
+
+.flex-item-50pct {
+	width: 50%;
+}
+
+.flex-item-66pct {
+	width: 66.66%;
+}
+
+.flex-item-75pct {
+	width: 75%;
+}
+
+/* || FOOTER */
+.page-footer {
+	background-color: var(--darkColor);
+	color: var(--lightColor);
+	font-size: .75rem;
+	min-height: 2rem;
+	padding: var(--gap);
+}
+
+.sidebar {
+	display: none;
+	min-height: calc(100vh - calc(var(--gap) * 2));
+	min-width: 4rem;
 }
 
 /* || Mobile First */
 
 @media (min-width: 480px) {
   /*CSS for medium width screens*/
-
-
-	body {
-		-webkit-font-smoothing: antialiased;
-		text-rendering: optimizeLegibility;
-		min-height: 100vh;
-	}
-
-	h1,
-	h2,
-	h3 {
-    font-family: var(--titleFont);
-		margin: 1.4em;
-	}
-
-	a {
-		color: inherit;
-	}
-
-	a:focus, a:hover {
-		text-decoration: underline;
-		text-decoration-color: rgba(40,40,40,.9);
-	}
-
-
-/* || HEADER */
-	.page-header {
-		align-items: flex-start;
-		background-color: rgba(255,255,255,.5);
-		display: flex;
-		height: calc(var(--gap) * 2);
-		justify-content: space-between;
+	.sidebar {
+		display: block;
+		max-height: calc(100vh + calc(var(--gap) * 4));
 		position: fixed;
-		top: 0;
-		z-index:999;
+		left: 0;
+		top: calc(var(--gap) * 2);
+		min-width: 4rem;
+		vertical-align: bottom;
+		z-index:2;
 	}
 
-	.logo {
-		align-items: center;
-		display: flex;
-		height: 100%;
-	}
-
-	.logo-icon {
-		background-color: var(--darkColor);
-		padding: .25rem 0;
-		text-align:center;
-		vertical-align: middle;
+	.nav-arrows {
+		position: absolute;
+		bottom: var(--gap);
+		left: 0;
+		z-index:3;
 		width: 4rem;
 	}
 
-	.logo-icon-actual {
-		max-width: 80%;
-	}
-
-	.logo-text {
-		font-family: var(--titleFont);
-		padding-left: var(--gap);
-		text-transform: uppercase;
-	}
-
-	.nav-header {
-		max-height: calc(var(--gap) * 2);
-	}
-
-	.menu {
-		align-items: center;
-		display: flex;
-		list-style: none;
-	}
-
-	.page-header a {
-		text-decoration: none;
-	}
-
-	.page-header .menu  a:hover {
-		text-decoration: underline;
-		text-decoration-color: inherit;
-		text-decoration-thickness: 2px;
-	}
-
-	.page-header .menu a:focus, {
-		text-decoration: none;
-	}
-
-	.menu li {
-		font-size: .75rem;
-		padding: 0 var(--gap);
-	}
-
-/* || CONTENT */
-
-	.page-wrap {
-		display: flex;
-		width: 100%;
+	.nav-up-arrow {
+		margin-bottom: var(--gap);
 	}
 
 	.page-main-content {
-		min-height: calc(100vh - 90px);
-		width: 100%;
-	}
-
-	.social {
-		display: none;
-	}
-
-	section {
-		margin-top: calc(var(--gap) * 2);
-	}
-
-	section#hi {
-		background-color: #bfdbcd;
-	}
-
-	section#resume, section#personal {
-		background-color: var(--lightColor);
-	}
-
-	section#user_manual {
-		background-color: #dbdfff;
-	}
-
-	section#personal {
-
-	}
-
-	section#contact {
-
-	}
-
-/* || FOOTER */
-	.page-footer {
-		background-color: var(--darkColor);
-		min-height: 2rem;
+		width: calc(100vw - 4rem);
+		margin-left: 4rem;
 	}
 }
 
 @media (min-width: 800px) {
   /*CSS for wide screens*/
-
-	.social {
-		display: inline;
-		min-height: calc(100vh - 90px);
-		min-width: 4rem;
+	.menu-button {
+		display:none;
+	}
+	.nav-header {
+		display: flex;
 	}
 }
 
