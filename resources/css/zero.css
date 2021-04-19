@@ -29,7 +29,7 @@ html {
 
 section {
 	background-color: blue;
-	//min-height: calc(100vh - calc(var(--gap) * 2);
+	height: calc(100vh - calc(var(--gap) * 2));
 }
 
 .page-footer {
