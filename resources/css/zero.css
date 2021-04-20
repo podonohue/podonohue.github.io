@@ -45,6 +45,7 @@ html {
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+	
 }
 
 h1,
@@ -250,6 +251,10 @@ section#resume, section#personal {
 
 @media (min-width: 480px) {
   /*CSS for medium width screens*/
+	html {
+		overflow-x: hidden;
+	}
+
 	.sidebar {
 		display: block;
 		max-height: calc(100vh + calc(var(--gap) * 4));
