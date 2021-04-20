@@ -162,6 +162,7 @@ a:focus, a:hover {
 .page-wrap {
 	display: flex;
 	height: auto;
+	overflow-x: hidden;
 	top: calc(var(--gap) * 2);
 	width: 100%;
 }
@@ -173,6 +174,7 @@ main {
 .page-main-content {
 	width: 100%;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 .social {
