@@ -18,9 +18,7 @@ html {
   font-size: 20px;
   min-width: 748px;
   overflow-x: hidden;
-  overflow-y: hidden;
   scroll-behavior: smooth;
-  position: fixed;
 }
 
 *:focus {
@@ -30,6 +28,9 @@ html {
 body {
   color: var(--lightColor);
   line-height: 1.6rem;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 ::-webkit-scrollbar {
