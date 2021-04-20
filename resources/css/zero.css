@@ -16,6 +16,7 @@ html {
 	font-size: 20px;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: auto;
 }
 
 .page-header {
@@ -23,7 +24,9 @@ html {
 }
 
 .page-wrap {
+	overflow-x: hidden;
 	width: 100%;
+	-webkit-overflow-scrolling: auto;
 }
 
 .page-footer {
