@@ -19,6 +19,7 @@ html {
   min-width: 748px;
   overflow-x:visible;
   scroll-behavior: smooth;
+  position: absolute;
 }
 
 *:focus {
