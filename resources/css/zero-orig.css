@@ -45,7 +45,7 @@ html {
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-
+	
 }
 
 h1,
@@ -172,7 +172,6 @@ main {
 
 .page-main-content {
 	width: 100%;
-	margin: 0;
 }
 
 .social {
@@ -235,11 +234,17 @@ section#resume, section#personal {
 
 /* || FOOTER */
 .page-footer {
-	background-color: var(--lightColor);
-	color: var(--darkColor);
+	background-color: var(--darkColor);
+	color: var(--lightColor);
 	font-size: .75rem;
 	min-height: 2rem;
 	padding: var(--gap);
+}
+
+.sidebar {
+	display: none;
+	min-height: calc(100vh - calc(var(--gap) * 2));
+	min-width: 4rem;
 }
 
 /* || Mobile First */
@@ -250,14 +255,32 @@ section#resume, section#personal {
 		overflow-x: hidden;
 	}
 
-	.page-main-content {
-		width: 100%;
-		margin-left: 4rem;
-		margin-right: 4rem;
+	.sidebar {
+		display: block;
+		max-height: calc(100vh + calc(var(--gap) * 4));
+		position: fixed;
+		left: 0;
+		top: calc(var(--gap) * 2);
+		min-width: 4rem;
+		vertical-align: bottom;
+		z-index:2;
 	}
 
-	.page-footer {
-		padding-left: 4rem;
+	.nav-arrows {
+		position: absolute;
+		bottom: var(--gap);
+		left: 0;
+		z-index:3;
+		width: 4rem;
+	}
+
+	.nav-up-arrow {
+		margin-bottom: var(--gap);
+	}
+
+	.page-main-content {
+		width: calc(100vw - 4rem);
+		margin-left: 4rem;
 	}
 }
 
