@@ -55,6 +55,7 @@ body {
 h1,
 h2,
 h3 {
+	color: inherit;
 	font-family: var(--titleFont);
 	margin: 1.4em 0;
 }
@@ -239,12 +240,12 @@ section#hi {
 
 /* Dark Background Light Text */
 
-.darkBdg-lightTxt {
+.darkBgd-lightTxt {
 	background-color: var(--darkColor);
 	color: var(--lightColor);
 }
 
-.darkBdg-lightTxt h3 {
+.darkBgd-lightTxt h3 {
 	background-color: var(--lightColor);
 	color: var(--darkColor);
 }
