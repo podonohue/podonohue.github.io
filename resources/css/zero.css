@@ -5,6 +5,10 @@ html {
 	/* Variables */
 	--darkColor: #282828;
 	--lightColor: #fff;
+	--midGray: #707070;
+	--lightGreen: #efffe8;
+	--midGreen: #c7e0bc;
+	--darkGreen: #90ba7f;
 	--gap: 1.25rem;
 	--titleFont: 'Jura','Roboto',sans-serif;
 	--contentFont:'Roboto','Helvetica',sans-serif;
@@ -18,6 +22,25 @@ html {
 	scroll-behavior: smooth;
 	scroll-padding: 0;
 	-webkit-overflow-scrolling: auto;
+}
+
+.nobgd {
+	background:none;
+}
+
+.lightGreen {
+	background-color: var(--lightGreen);
+	color: var(--darkColor);
+}
+
+.midGreen {
+	background-color: var(--midGreen);
+	color: var(--darkColor);
+}
+
+.darkGreen {
+	background-color: var(--darkGreen);
+	color: var(--darkColor);
 }
 
 .page-header {
@@ -217,7 +240,8 @@ section {
 section p, section li {
 	line-height: 1.5rem;
 	text-justify: auto;
-	max-width: 900px;
+	/max-width: 900px;
+	width: 80%;
 }
 
 section ul {
@@ -238,6 +262,30 @@ section#hi {
 	padding-top: 5rem;
 }
 
+section .card {
+	border-radius: 5px;
+	margin: var(--gap);
+}
+
+section .card h4 {
+	text-align: center;
+}
+
+section .card p, secion .card li {
+	text-align:left;
+	padding: var(--gap);
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	background-color: var(--midGray);
+	border-radius: 5px;
+	padding: var(--gap);
+}
+
 /* Dark Background Light Text */
 
 .darkBgd-lightTxt {
@@ -248,6 +296,10 @@ section#hi {
 .darkBgd-lightTxt h3 {
 	background-color: var(--lightColor);
 	color: var(--darkColor);
+}
+
+.darkBgd-lightTxt .card {
+	border: 1px solid var(--lightColor);
 }
 
 /* Light Background Dark Text */
@@ -262,12 +314,18 @@ section#hi {
 	color: var(--lightColor);
 }
 
+.lightBgd-darkTxt .card {
+	border: 1px solid var(--darkColor);
+}
+
+/*section content and flex */
+
 .section-content {
 	text-align: left;
 }
 
 .flex-container {
-	display: inline-block;
+	display: block;
 }
 
 .flex-item-25pct {
@@ -300,6 +358,33 @@ section#hi {
 }
 
 /* || Mobile First */
+@media (max-width: 479px) {
+	section p {
+		width: 100%;
+	}
+
+	section li {
+		width: 100%;
+	}
+
+	section .card {
+		margin: var(--gap) 0;
+		min-width: 100%;
+	}
+
+	section .card p {
+		padding: calc(var(--gap) / 2);
+		max-width: calc(100% - var(--gap));
+	}
+
+	table {
+		font-size: .75rem;
+	}
+
+	td {
+		padding: calc(var(--gap) / 3);
+	}
+}
 
 @media (min-width: 480px) {
   /*CSS for medium width screens*/
@@ -337,6 +422,11 @@ section#hi {
 
 	.flex-item-75pct {
 		width: 75%;
+	}
+
+	.flex-item-100pct {
+		display: flex;
+		width: 100%;
 	}
 
 	.page-footer {
