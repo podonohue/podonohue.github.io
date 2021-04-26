@@ -257,7 +257,7 @@ section#hi {
 	color: var(--darkColor);
 }
 
-.lightBgd-darkText h3 {
+.lightBgd-darkTxt h3 {
 	background-color: var(--darkColor);
 	color: var(--lightColor);
 }
