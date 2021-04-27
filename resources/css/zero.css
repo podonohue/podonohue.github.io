@@ -239,9 +239,6 @@ section {
 
 section p, section li {
 	line-height: 1.5rem;
-	text-justify: auto;
-	/max-width: 900px;
-	width: 80%;
 }
 
 section ul {
@@ -271,19 +268,64 @@ section .card h4 {
 	text-align: center;
 }
 
-section .card p, secion .card li {
+section .card p, section .card li {
 	text-align:left;
-	padding: var(--gap);
+}
+
+section .card p {
+	font-size: .85rem;
+	padding: .5rem;
+	text-align: justify;
+	text-justify: inter-character;
+}
+
+section img {
+	border-radius: 20px;
+	max-width: 100%;
 }
 
 table {
 	width: 100%;
+	margin: calc(var(--gap) * 4) 0;
 }
 
 td {
 	background-color: var(--midGray);
 	border-radius: 5px;
 	padding: var(--gap);
+}
+
+.email::before {
+	content: "podonohue";
+}
+
+.email::after {
+	content: "pm.me";
+}
+
+.hover-container {
+	max-width: 100%;
+	position: relative;
+}
+
+.hover-cover {
+	display: none;
+	max-width: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.hover-container:hover .hover-cover,
+.hover-container:focus .hover-cover {
+	display: block;
+}
+
+.notes {
+	bottom: 0;
+	font-size: .75rem;
+	position: absolute;
 }
 
 /* Dark Background Light Text */
