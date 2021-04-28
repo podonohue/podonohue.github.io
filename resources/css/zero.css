@@ -19,6 +19,7 @@ html {
 	font-family: var(--contentFont);
 	font-size: 20px;
 	overflow-x: hidden;
+	overscroll-x: none;
 	scroll-behavior: smooth;
 	scroll-padding: 0;
 	-webkit-overflow-scrolling: auto;
@@ -49,7 +50,7 @@ html {
 
 .page-wrap {
 	overflow-x: hidden;
-	width: 100%;
+	overscroll-x: none;
 	-webkit-overflow-scrolling: auto;
 }
 
@@ -303,30 +304,17 @@ td {
 	content: "pm.me";
 }
 
-.hover-container {
-	max-width: 100%;
-	position: relative;
-}
-
-.hover-cover {
-	display: none;
-	max-width: 100%;
-	position:absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;
-}
-
-.hover-container:hover .hover-cover,
-.hover-container:focus .hover-cover {
-	display: block;
-}
-
-.notes {
+.footnotes {
 	bottom: 0;
 	font-size: .75rem;
-	position: absolute;
 }
+
+ .inline-img {
+	 width: 2rem;
+	 margin: 0 .5rem;
+	 margin-bottom: -.5rem;
+	 overflow: visible;
+ }
 
 /* Dark Background Light Text */
 
@@ -473,6 +461,10 @@ td {
 
 	.page-footer {
 		padding-left: 4rem;
+	}
+	.footnotes {
+		margin-bottom: -3rem;
+		position: absolute;
 	}
 }
 
