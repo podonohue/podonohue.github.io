@@ -101,6 +101,7 @@ h3 {
 h4 {
 	font-size: 1rem;
 	font-weight: bold;
+	font-style: italic;
 }
 
 h5 {
@@ -256,6 +257,14 @@ section li:before{
 	content:"» ";
 }
 
+ul.nodec>li {
+	margin-left: 2rem;
+}
+
+ul.nodec>li:before {
+	content: "";
+}
+
 section#hi {
 	padding-top: 5rem;
 }
@@ -280,8 +289,23 @@ section .card p {
 	text-justify: inter-character;
 }
 
+section .card ul {
+	padding-left: 2rem;
+	font-size: .85rem;
+}
+
+section .card ul li:first-of-type {
+	list-style: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+section .card ul li:first-of-type:before {
+	content: none;
+}
+
 section img {
-	border-radius: 20px;
+	border-radius: 3px;
 	max-width: 100%;
 }
 
@@ -296,6 +320,14 @@ td {
 	padding: var(--gap);
 }
 
+span.subtitle-break {
+	display: block;
+}
+
+span.mobile-hide {
+	display: none;
+}
+
 .email::before {
 	content: "podonohue";
 }
@@ -307,6 +339,8 @@ td {
 .footnotes {
 	bottom: 0;
 	font-size: .75rem;
+	min-width: 300px;
+	width: 75%;
 }
 
  .inline-img {
@@ -377,6 +411,8 @@ td {
 .flex-item-75pct {
 	width: 100%;
 }
+
+
 
 /* || FOOTER */
 .page-footer {
@@ -465,6 +501,12 @@ td {
 	.footnotes {
 		margin-bottom: -3rem;
 		position: absolute;
+	}
+	span.subtitle-break {
+		display: inline-block;
+	}
+	span.mobile-hide {
+		display: inline-block;
 	}
 }
 
