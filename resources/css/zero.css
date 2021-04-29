@@ -265,6 +265,7 @@ section li:before{
 ul.nodec>li {
 	margin-left: .5rem;
 	max-width: 100%;
+	padding-right: 1rem;
 }
 
 ul.nodec>li:before {
