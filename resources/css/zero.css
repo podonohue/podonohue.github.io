@@ -263,8 +263,8 @@ section li:before{
 }
 
 ul.nodec>li {
-	margin-left: .5rem;
-	max-width: 100%;
+	margin-left: 0rem;
+	max-width: 95%;
 	padding-right: 1rem;
 }
 
