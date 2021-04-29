@@ -331,6 +331,10 @@ span.subtitle-break {
 	display: block;
 }
 
+.mobile-hide {
+	display:none;
+}
+
 span.mobile-hide {
 	display: none;
 }
@@ -513,6 +517,11 @@ span.mobile-hide {
 	span.subtitle-break {
 		display: inline-block;
 	}
+
+	.mobile-hide {
+		display: inline;
+	}
+
 	span.mobile-hide {
 		display: inline-block;
 	}
