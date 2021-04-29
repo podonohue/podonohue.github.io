@@ -263,7 +263,8 @@ section li:before{
 }
 
 ul.nodec>li {
-	margin-left: 2rem;
+	margin-left: .5rem;
+	max-width: 100%;
 }
 
 ul.nodec>li:before {
@@ -507,11 +508,16 @@ span.mobile-hide {
 		margin-bottom: -3rem;
 		position: absolute;
 	}
+
 	span.subtitle-break {
 		display: inline-block;
 	}
 	span.mobile-hide {
 		display: inline-block;
+	}
+
+	ul.nodec>li {
+		margin-left: 2rem;
 	}
 }
 
