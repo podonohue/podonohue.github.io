@@ -25,6 +25,11 @@ html {
 	-webkit-overflow-scrolling: auto;
 }
 
+body {
+	overflow-x: hidden;
+	overscroll: none;
+}
+
 .nobgd {
 	background:none;
 }
