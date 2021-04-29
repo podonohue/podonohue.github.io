@@ -1,10 +1,6 @@
 
 /* CTRL+F: || FOR CSS SECTION HEADINGS */
 
-*{
-	overflow-x:hidden;
-}
-
 html {
 	/* Variables */
 	--darkColor: #282828;
